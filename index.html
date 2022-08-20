@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money Master</title>
+  <!-- tailwind link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="mx-auto">
+
+  <h1 class="text-center font-medium text-blue-500 text-3xl">Money Master💰 </h1>
+  <div class="container mx-auto my-4 ">
+    <div class="bg-gray-100 grid md:grid-cols-2   grid-cols-1 p-3 gap-4">
+      <div>
+        <img src="./images/Pexels Photo by Karolina Grabowska.png" alt="">
+      </div>
+      <div>
+        <div class="inputs">
+          <h4 class="text-center font-bold  text-xl my-2">Income</h4>
+          <div class="container text-center">
+            <span class="font-medium">Income:</span> <input type="text" class=" w-80 text-sm text-slate-500 p-3"
+              placeholder="income">
+          </div>
+        </div>
+        <div class="inputs">
+          <h4 class="text-center font-bold  text-xl my-2">Expenses</h4>
+          <div class="container text-center my-3">
+            <span class="font-medium w-10">Food:</span> <input type="text" class=" w-80 text-sm text-slate-500 p-3"
+              placeholder="income">
+          </div>
+          <div class="container text-center my-3">
+            <span class="font-medium">Rent:</span> <input type="text" class=" w-80 text-sm text-slate-500 p-3"
+              placeholder="income">
+          </div>
+          <div class="container text-center my-3">
+            <span class="font-medium">Clothes:</span> <input type="text" class=" w-80 text-sm text-slate-500 p-3"
+            
+              placeholder="income"><br>
+              <button class="text-center inline-block my-5 bg-blue-500 mx-auto text-white px-5 py-2 ">Calculate</button> <br>
+              <h4 class="text-center font-bold  text-xl my-2">Total Expenses : 5500</h4>
+              <h4 class="text-center font-bold  text-xl my-2">Balance :4500</h4>
+              <span class="font-medium">Save :</span> <input type="text" class=" w-20 text-sm text-slate-500 p-3 mx-2"
+            
+              placeholder="income">
+              <input type="text" class="bg-white text-center font-bold text-xl w-20 text-sm text-slate-500 p-3 mx-2"
+            
+              placeholder="%" disabled >
+              <button class="text-center inline-block my-5 bg-blue-500 mx-auto text-white px-5 py-2 ">Calculate</button> <br>
+              <h4 class="text-center font-bold  text-xl my-2">Saving Amount : 500</h4>
+              <h4 class="text-center font-bold  text-xl my-2">Remaining Amount :4500</h4>
+          </div>
+         
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
