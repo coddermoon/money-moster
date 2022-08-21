@@ -98,7 +98,7 @@ saveBtn.addEventListener('click',()=>{
    
    const remaining = totalBalance - savings
    if (isNaN(remaining)) {
-    showMassage('please input within 1 to 100','danger')
+    showMassage('please input within 1 to 99','danger')
 }else{
     remainingBalance.innerText = remaining 
 }
